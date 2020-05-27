@@ -1,0 +1,3 @@
+<% @posts.each do |x| %>
+  <div><%= link_to x.title, "/posts/#{x.id}" %></div>
+<% end %>
